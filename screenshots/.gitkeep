@@ -1,0 +1,32 @@
+GROQ_API_KEY=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
+GROQ_MODEL=openai/gpt-oss-120b
+GROQ_WHISPER_MODEL=whisper-large-v3
+ALLOWED_ORIGINS=http://localhost:5173
+
+# ===== Backend =====
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Frontend =====
+frontend/.env
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+npm-debug.log*
